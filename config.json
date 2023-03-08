@@ -1,0 +1,35 @@
+{
+  "mqtt": {
+    "servers": [
+      {
+        "host": "127.0.0.1",
+        "port": 1883,
+        "username": "",
+        "password": ""
+      }
+    ]
+  },
+  "remote_logging": {
+    "url": "localhost",
+    "port": 3000,
+    "path": "/data"
+ },
+  "influxdb": {
+    "host": "localhost",
+    "port": 8086,
+    "database": "oee",
+    "username": "",
+    "password": "",
+    "logging_interval": 10000
+  },
+  "machines": [
+    {
+      "name": "Machine1",
+      "topic": "oee/machine1"
+    },
+    {
+      "name": "Machine2",
+      "topic": "oee/machine2"
+    }
+  ]
+}
