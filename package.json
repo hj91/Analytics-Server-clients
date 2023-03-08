@@ -1,0 +1,24 @@
+{
+  "name": "OEE_calculator",
+  "version": "0.0.1",
+  "description": "Tool for calculating OEE metrics and sending them to cloud of your choice",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "influx": "5.9.3",
+    "ip": "^1.1.8",
+    "mqtt": "^4.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.21"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "lint": "eslint ."
+  },
+  "author": "Harshad Joshi",
+  "license": "ISC"
+}
